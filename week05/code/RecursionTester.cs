@@ -308,7 +308,7 @@ public static class RecursionTester
         if (currPath == null)
             currPath = new List<ValueTuple<int, int>>();
 
-        // currPath.Add((1,2)); // Use this syntax to add to the current path
+        currPath.Add((1, 2)); // Use this syntax to add to the current path
 
         // TODO Start Problem 5
         // ADD CODE HERE
@@ -339,6 +339,6 @@ public static class RecursionTester
             }
         }
 
-        // Console.WriteLine(currPath.AsString()); // Use this to print out your path when you find the solution
+        Console.WriteLine(currPath.AsString()); // Use this to print out your path when you find the solution
     }
 }
